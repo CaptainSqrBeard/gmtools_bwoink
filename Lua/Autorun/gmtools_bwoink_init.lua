@@ -20,7 +20,7 @@ if SERVER then
 	Hook.Add("gmtools.loaded", "gmt_bwoink_load", function(contentPackage, forcedLaunch)
 		for i, mod in ipairs(Game.GetEnabledContentPackages()) do
 			-- Load only if registration was approved
-			if path.."/filelist.xml" == mod.Path and addons.RegisterAddon(mod) then
+			if path == mod.Dir and addons.RegisterAddon(mod) then
 				loadAddon()
 				break
 			end
