@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="GM Tools Bwoink!" modversion="1.0.1" corepackage="False" steamworkshopid="3282622742" gameversion="1.5.9.1">
+<contentpackage name="GM Tools Bwoink!" modversion="2.0.0" corepackage="False" steamworkshopid="3282622742" gameversion="1.13.4.0">
   <Afflictions file="%ModDir%/XML/afflictions.xml" />
   <Sounds file="%ModDir%/XML/sounds.xml" />
 </contentpackage>
